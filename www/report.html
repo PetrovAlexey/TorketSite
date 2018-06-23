@@ -1,0 +1,19 @@
+<p>Представьтесь, пожалуйста, и сообщите о моём коте</p>
+<form method="post" action="report.php">
+    <label for="firstname">Имя:</label>
+	<input type="text" name="firstname" id="firstname"><br>
+	<label for="lastname">Фамилия:</label>
+	<input type="text" name="lastname" id="lastname"><br>
+	<label for="email">Ваша электронная почта:</label>
+	<input type="text" name="email" id="email"><br>
+	<label for="when">Когда это произошло?</label>
+	<input type="text" name="when" id="when"><br>
+	<label for="description">Опишите похитителей</label>
+	<input type="text" name="description" id="description" size="32"><br>
+	<label for="love">Вы любите котов?</label>
+	Да <input type="radio" name="love" id="love" value="yes">
+	Нет <input type="radio" name="love" id="love" value="no"><br>
+	<label for="other">Дополнительная информация</label><br>
+	<textarea name="other" id="other" cols="30" rows="3"></textarea><br>
+	<input type="submit" value="Отправить сообщение" name="submit">
+</form>
