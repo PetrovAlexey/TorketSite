@@ -1,0 +1,10 @@
+﻿@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/www/fonts/open-serif.ttf'); /* IE9 Compat Modes */
+}
+
+.body{
+    font-family: 'Open Sans';
+}
